@@ -1,6 +1,6 @@
 import { render } from './util';
 
-// TODO: What is the value of foo? 'foo3' is returned  
+// TODO: What is the value of foo?'foo3' is returned  
 render('variables1', () => {
   let foo = 'foo1';
   foo = 'foo2';
