@@ -1,6 +1,6 @@
 import { render } from './util';
 
-// TODO: What is the value of foo?
+// TODO: What is the value of foo? 'foo3' is returned  
 render('variables1', () => {
   let foo = 'foo1';
   foo = 'foo2';
@@ -10,13 +10,12 @@ render('variables1', () => {
 
 // TODO: Fix this code.
 render('variables2', () => {
-  const bar = 'bar';
-  bar = 'bar';
+  let bar = 'bar';
   return bar;
 });
 
 // TODO: Fix this code.
 render('variables3', () => {
-  baz = 'baz';
+  let baz = 'baz';
   return baz;
 });
