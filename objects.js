@@ -10,23 +10,16 @@ render('objects1', () => {
 
 // TODO: Create an object of objects and return it.
 render('objects2', () => {
-const zoo = {
-  zebra: 42,
-  tiger:2,
-  lion:5,
-};
-return zoo;
+  const zoo = {
+    zebra: 42,
+    tiger: 2,
+    lion: 5,
+  };
+  return zoo;
 });
 
 // TODO: Create an array of objects and return the element at index 0.
 render('objects3', () => {
-  const pringles={
-    falvor:salty,
-  };
-  const snapples ={
-    flavor:peach,
-  };
-  const arr = {`Flavor of my pringles: ${pringles.flavor}`,`Snapples flavor: ${snapples.flavor}`};
-  
+  const arr = [0, 1, 2, 3];
   return arr[0];
 });
